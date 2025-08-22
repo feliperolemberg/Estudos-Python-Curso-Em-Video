@@ -1,0 +1,7 @@
+nome = str(input('Digite o seu nome completo: '))
+qtdesp = nome.count(' ')
+primeironome = nome.split()
+print('O seu nome com todas as letras maiúsculas:\n'+ nome.upper().strip())
+print('-'*45 + '\nO seu nome com todas as letras minúsculas:\n'+ nome.lower().strip())
+print('-'*45 + '\nO seu nome possui {} letras (sem considerar os espaços).'.format(len(nome) - qtdesp))
+print('-'*55 + '\nO seu primeiro nome possui {} letras.\n'.format(len(primeironome[0])) + '-'*45)
